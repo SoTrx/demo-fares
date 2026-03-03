@@ -11,14 +11,14 @@ graph TD
     User(["User"])
 
     subgraph devcontainer ["Dev Container"]
-        Streamlit["Streamlit Frontend\nmain.py · port 8501"]
+        Streamlit["Streamlit Frontend<br>main.py · port 8501"]
     end
 
     subgraph services ["Sidecar Services (docker-compose)"]
-        APMgmt["AP Management\nap-management · port 5000"]
-        APExec["AP Executor\nap-executor · port 5000"]
-        Neo4j[("Neo4j\nport 7687 / 7474")]
-        Postgres[("PostgreSQL\nport 5432 · DB: mathe")]
+        APMgmt["AP Management<br>ap-management · port 5000"]
+        APExec["AP Executor<br>ap-executor · port 5000"]
+        Neo4j[("Neo4j<br>port 7687 / 7474")]
+        Postgres[("PostgreSQL<br>port 5432 · DB: mathe")]
     end
 
     User -->|"NL question"| Streamlit
