@@ -27,7 +27,7 @@ def get_management_client() -> ApManagementClient:
 
 
 def get_executor_client() -> ApExecutorClient:
-    return ApExecutorClient(_create_adapter(AP_MANAGEMENT_URL))
+    return ApExecutorClient(_create_adapter(AP_EXECUTOR_URL))
 
 
 async def resolve_ap(query: str) -> ResolveApResponse:

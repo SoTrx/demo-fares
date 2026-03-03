@@ -39,7 +39,6 @@ services:
       timeout: 5s
       retries: 5
 
-
   ap-management:
     image: ghcr.io/datagems-eosc/datagems-eosc/ap-management:v0.4.3
     container_name: demo-fares-ap-management
