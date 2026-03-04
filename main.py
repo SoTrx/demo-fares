@@ -9,6 +9,12 @@ TITLE = "API Generation Demo"
 QUESTIONS = {
     "Select a question…": None,
     "Discrete Mathematics": True,
+    "How can I solve a linear system 4x4?": True,
+    "What are the basic concepts of learning linear optimization?": True,
+    "How do I begin my study about linear optimization?": True,
+    "What is the role of the objective function in finding the optimum solution in a linear optimization problem?": True,
+    "What is the role of constraints in a linear optimization problem?": True,
+    "How is the optimal solution usually found in a linear optimization problem?": True,
 }
 
 st.set_page_config(page_title=TITLE, layout="centered")
