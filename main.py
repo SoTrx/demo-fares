@@ -15,6 +15,7 @@ QUESTIONS = {
     "What is the role of the objective function in finding the optimum solution in a linear optimization problem?": True,
     "What is the role of constraints in a linear optimization problem?": True,
     "How is the optimal solution usually found in a linear optimization problem?": True,
+    "Fetch the assessments of student number 1273 and student number 3409": True,
 }
 
 st.set_page_config(page_title=TITLE, layout="centered")
