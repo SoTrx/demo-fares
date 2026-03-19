@@ -40607,3 +40607,14 @@ ALTER TABLE ONLY mathe.platform_material_keyword
 -- PostgreSQL database dump complete
 --
 
+CREATE TABLE mathe.assessment_1  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 0     LIMIT 2000;
+CREATE TABLE mathe.assessment_2  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 2000  LIMIT 2000;
+CREATE TABLE mathe.assessment_3  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 4000  LIMIT 2000;
+CREATE TABLE mathe.assessment_4  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 6000  LIMIT 2000;
+CREATE TABLE mathe.assessment_5  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 8000  LIMIT 2000;
+CREATE TABLE mathe.assessment_6  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 10000 LIMIT 2000;
+CREATE TABLE mathe.assessment_7  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 12000 LIMIT 2000;
+CREATE TABLE mathe.assessment_8  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 14000 LIMIT 2000;
+CREATE TABLE mathe.assessment_9  AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 16000 LIMIT 2000;
+CREATE TABLE mathe.assessment_10 AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 18000 LIMIT 2000;
+CREATE TABLE mathe.assessment_11 AS SELECT * FROM mathe.assessment ORDER BY id OFFSET 20000 LIMIT 2000;
